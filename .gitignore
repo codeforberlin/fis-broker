@@ -1,0 +1,9 @@
+*~
+*.swp
+.DS_Store
+
+*.ecw
+*.eww
+*.tif
+*.vrt
+*.zip
