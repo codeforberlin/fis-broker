@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FILES=(
-    'http://fbarc.stadt-berlin.de/FIS_Broker_Atom/Geologie/geo_18-19/Geolog_Karte_gauss4.zip'
+    'http://fbarc.stadt-berlin.de/FIS_Broker_Atom/Berlin_um/Berlin1690.zip'
 )
 
 mkdir zip
@@ -17,3 +17,4 @@ for f in ../zip/*.zip
     do unzip $f
 done
 cd ..
+

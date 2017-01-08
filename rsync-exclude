@@ -1,12 +1,11 @@
-*~
-*.swp
-.DS_Store
-*.py
-
+.git
 *.zip
 *.ecw
 *.eww
 *.tif
 *.tfw
 *.TIF
-*.vrt
+*.sh
+*.py
+*.pyc
+*.md

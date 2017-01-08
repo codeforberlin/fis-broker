@@ -20,3 +20,12 @@ and
 ```
 gdaladdo --config COMPRESS_OVERVIEW JPEG --config PHOTOMETRIC_OVERVIEW YCBCR --config INTERLEAVE_OVERVIEW PIXEL -r average GTIFFFILE 2 4 8 16
 ```
+
+rsync
+-----
+
+To copy only the converted tif files and the vrt to a remote server use:
+
+```
+rsync --delete -av --include=*.gdal.tif --include=*.vrt --exclude-from=rsync-exclude ./ USER@SERVER:PATH/
+```

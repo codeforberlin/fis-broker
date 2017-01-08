@@ -21,7 +21,5 @@ Setup
 
 ```
 bin/download.sh
-bin/unzip.sh
 bin/convert.sh
-bin/buildvrt.sh
 ```
