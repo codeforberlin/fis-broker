@@ -1,0 +1,19 @@
+service:
+  version: 1.1.1
+  url: http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_radwege?
+  srs: EPSG:25833
+  format: jpeg
+  layer: 0
+bbox:
+  west:  23600.0
+  south: 20900.0
+  east:  48000.0
+  north: 39000.0
+
+size: 2000
+resolution: 600
+timeout: 300
+projection: EPSG:25833
+directory: images
+vrtfile: tiles.vrt
+tmpfile: /tmp/wms.xml

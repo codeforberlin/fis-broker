@@ -4,9 +4,11 @@
 *.py
 
 *.zip
+*.ZIP
 *.ecw
 *.eww
 *.tif
 *.tfw
 *.TIF
 *.vrt
+*.xml

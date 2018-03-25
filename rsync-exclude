@@ -1,5 +1,6 @@
 .git
 *.zip
+*.ZIP
 *.ecw
 *.eww
 *.tif
@@ -9,3 +10,4 @@
 *.py
 *.pyc
 *.md
+*.xml

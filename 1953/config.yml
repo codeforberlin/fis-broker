@@ -1,0 +1,19 @@
+service:
+  version: 1.1.1
+  url: http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1953?
+  srs: EPSG:25833
+  format: jpeg
+  layer: 0
+bbox:
+  west:   370000.0
+  south: 5800000.0
+  east:   415000.0
+  north: 5837000.0
+
+size: 2000
+resolution: 600
+timeout: 300
+projection: EPSG:25833
+directory: images
+vrtfile: tiles.vrt
+tmpfile: /tmp/wms.xml

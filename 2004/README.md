@@ -1,15 +1,15 @@
-Digitale farbige Orthophotos 2016 (DOP20RGB)
+Digitale farbige Orthophotos 2004 (DOP25RGB)
 ============================================
 
 ATOM Link
 ---------
 
-http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_geo_18-19@senstadt&type=FEED
+http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2004@senstadt&type=FEED
 
 Attribution
 -----------
 
-Geoportal Berlin / Geologische Karte 1874-1937
+Geoportal Berlin / Digitale farbige Orthophotos 2004 (DOP25RGB)
 
 Projection
 ----------
