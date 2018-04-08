@@ -1,7 +1,10 @@
 *~
 *.swp
 .DS_Store
-*.py
+
+__pycache__/
+*.py[cod]
+*$py.class
 
 *.zip
 *.ZIP
@@ -12,3 +15,4 @@
 *.TIF
 *.vrt
 *.xml
+*.cfg
