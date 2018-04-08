@@ -24,17 +24,25 @@ DIRECTORIES = [
     '2017',
     'gebaeudealter',
     'gebschaden',
-    'geo',
     'hobrecht',
 ]
-
-PREFIX = 'berlin-'
 
 PREVIEW = {
     'lat': 52.518611,
     'lon': 13.408333,
     'zoom': 15
 }
+
+parser = argparse.ArgumentParser()
+parser.add_argument('path', help='base path to the files')
+parser.add_argument('-p', '--prefix', help='prefix for the layers')
+parser.add_argument('-o', '--output', help='name of the config file',
+                    default='tilestache.cfg')
+
+args = parser.parse_args()
+
+path = args.path.rstrip('/')
+prefix = args.prefix or None
 
 data = {
     'cache': {
@@ -46,30 +54,29 @@ data = {
             },
             {
                 'name': 'Disk',
-                'path': '/tmp/tilestache'
+                'path': '/tmp/cache'
             }
         ]
     },
     'layers': {}
 }
 
-parser = argparse.ArgumentParser()
-parser.add_argument('path', help='base path to the files')
-
-args = parser.parse_args()
-
 for directory in DIRECTORIES:
-    layer = PREFIX + directory
+    if prefix:
+        layer = prefix + directory
+    else:
+        layer = directory
 
     data['layers'][layer] = {
         'provider': {
             'class': 'TileStache.Goodies.Providers.GDAL:Provider',
             'kwargs': {
-                'filename': args.path + '1650/tiles.vrt',
+                'filename': path + '/' + directory + '/tiles.vrt',
                 'maskband': 1
             }
         },
         'preview': PREVIEW
     }
 
-print(json.dumps(data, sort_keys=True, indent=4))
+with open(args.output, 'w') as f:
+    f.write(json.dumps(data, sort_keys=True, indent=4))

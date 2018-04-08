@@ -24,8 +24,7 @@ DIRECTORIES = [
     '2017',
     'gebaeudealter',
     'gebschaden',
-    'geo',
-    'hobrecht',
+    'hobrecht'
 ]
 
 parser = argparse.ArgumentParser()
@@ -37,8 +36,8 @@ destination = args.destination.rstrip('/')
 
 for directory in DIRECTORIES:
     for source, target in [
-        (directory + '/images/', destination + '/' + directory + '/images/'),
-        (directory + '/tiles.vrt', destination + '/' + directory + '/tiles.vrt')
+        ('%s/images/' % directory, '%s/%s/images/' % (destination, directory)),
+        ('%s/tiles.vrt' % directory, '%s/%s/tiles.vrt' % (destination, directory))
     ]:
         subprocess.check_call([
             'rsync',
