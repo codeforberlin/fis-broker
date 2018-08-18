@@ -12,12 +12,12 @@ FILES=(
     'http://fbarc.stadt-berlin.de/FIS_Broker_Atom/DOP/dop20rgb_2017/West.zip'
 )
 
-#mkdir zip
-#cd zip
-#for f in ${FILES[@]}
-#    do wget $f
-#done
-#cd ..
+mkdir zip
+cd zip
+for f in ${FILES[@]}
+   do wget $f
+done
+cd ..
 
 mkdir images
 cd images
