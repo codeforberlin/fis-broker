@@ -1,6 +1,6 @@
 service:
   version: 1.1.1
-  url: http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1953?
+  url: https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1953
   srs: EPSG:25833
   format: jpeg
   layer: 0
