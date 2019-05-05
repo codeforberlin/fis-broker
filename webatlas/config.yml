@@ -1,0 +1,19 @@
+service:
+  version: 1.1.1
+  url: https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_webatlasberlin
+  srs: EPSG:25833
+  format: png
+  layer: 0
+bbox:
+  west:   370000.0
+  south: 5800000.0
+  east:   415000.0
+  north: 5837000.0
+
+size: 1000
+resolution: 1000
+timeout: 300
+projection: EPSG:25833
+directory: images
+vrtfile: tiles.vrt
+tmpfile: /tmp/wms.xml
