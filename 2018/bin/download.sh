@@ -15,7 +15,7 @@ FILES=(
 mkdir zip
 cd zip
 for f in ${FILES[@]}
-   do wget $f
+  do wget $f
 done
 cd ..
 

@@ -37,7 +37,7 @@ In order to process `ecw` files, gdal needs to be compiled agains the proprietar
 
 1) Download the ERDAS installer from https://download.hexagongeospatial.com/downloads/ecw/erdas-ecw-jp2-sdk-v5-4-linux. Run the installer with `bash` to install into `~/hexagon`. Move the directory afterwards to `/opt/hexagon`.
 
-2) Then, obtain gdal from https://trac.osgeo.org/gdal/wiki/DownloadSource.
+2) Then, obtain and build gdal-2.2.4 from https://trac.osgeo.org/gdal/wiki/DownloadSource.
 
 3) Extract the gdal source, change to the directory, and:
 
@@ -47,9 +47,9 @@ In order to process `ecw` files, gdal needs to be compiled agains the proprietar
     make install
     ```
 
-4) On Debian 9.0 an additional softling needs to be created:
+4) On Debian 9.0 an additional softlink needs to be created:
 
     ```
-    ln -s /store/opt/hexagon/ERDAS-ECW_JPEG_2000_SDK-5.4.0/Desktop_Read-Only/lib/newabi/x64/release/libNCSEcw.so* /usr/local/lib/
+    ln -s /opt/hexagon/ERDAS-ECW_JPEG_2000_SDK-5.4.0/Desktop_Read-Only/lib/newabi/x64/release/libNCSEcw.so* /usr/local/lib/
     ldconfig
     ```

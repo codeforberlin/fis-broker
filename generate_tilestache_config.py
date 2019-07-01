@@ -22,6 +22,8 @@ DIRECTORIES = [
     '2016',
     '2016i',
     '2017',
+    '2018',
+    '2019',
     'gebaeudealter',
     'gebschaden',
     'hobrecht',

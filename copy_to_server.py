@@ -24,6 +24,7 @@ DIRECTORIES = [
     '2016i',
     '2017',
     '2018',
+    '2019',
     'gebaeudealter',
     'gebschaden',
     'hobrecht'
@@ -46,6 +47,7 @@ for directory in DIRECTORIES:
             '--delete',
             '-av',
             '--include=*.gdal.tif',
+            '--include=tiles.vrt',
             '--exclude=*',
             source,
             target
