@@ -27,7 +27,7 @@ rsync
 To copy only the converted tif files and the vrt to a remote server use:
 
 ```
-rsync --delete -av --include=*.gdal.tif --include=*.vrt --exclude-from=rsync-exclude ./ USER@SERVER:PATH/
+rsync --delete -av --include="*/" --include="tif/*.tif" --include="*.vrt" --exclude="*" ./ USER@SERVER:PATH/
 ```
 
 ECW files
