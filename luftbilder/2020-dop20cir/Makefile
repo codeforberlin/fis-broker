@@ -31,6 +31,6 @@ zip:
 	done
 
 clean:
-	rm -rf zip ecw tif tiles.vrt
+	rm -rf zip ecw
 
 .PHONY: clean

@@ -20,6 +20,6 @@ zip:
 	wget https://fbinter.stadt-berlin.de/fb/atom/Geologie/geo_18-19/Geolog_Karte_gauss4.zip -P zip
 
 clean:
-	rm -rf zip ecw tif tiles.vrt
+	rm -rf zip ecw
 
 .PHONY: clean

@@ -20,6 +20,6 @@ zip:
 	wget https://fbinter.stadt-berlin.de/fb/atom/Berlin_um/Berlin1800.zip -P zip
 
 clean:
-	rm -rf zip tmp tif tiles.vrt
+	rm -rf zip tmp
 
 .PHONY: clean
