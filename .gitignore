@@ -19,5 +19,6 @@ __pycache__/
 *.xml
 *.cfg
 *.png
+*.prj
 
 /env
