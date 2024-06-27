@@ -20,5 +20,6 @@ __pycache__/
 *.cfg
 *.png
 *.prj
+*.jp2
 
 /env

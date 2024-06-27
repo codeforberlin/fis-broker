@@ -1,4 +1,4 @@
-Digitale farbige Orthophotos 2022 (DOP20RGBI)
+Digitale farbige Orthophotos 2023 (DOP20RGBI)
 =============================================
 
 ATOM Link
