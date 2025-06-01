@@ -1,25 +1,32 @@
-Digitale farbige Orthophotos 2010 (DOP20RGB)
+Digitale farbige Orthophotos 2007 (DOP20RGB)
 ============================================
 
-ATOM Link
----------
+## Metadaten
 
-https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2007@senstadt&type=FEED
+* https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/de32d147-d803-3340-a4be-ed0119b0bc48
 
-Attribution
------------
+## Downloaddienst (Atom)
 
-Geoportal Berlin / Digitale farbige Orthophotos 2007 (DOP20RGB)
+* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2007
+* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2007/0
 
-Projection
-----------
+## Attribution
+
+Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2007 (DOP20RGB)
+
+## Lizenz
+
+Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden.
+Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.
+
+## Projektion
 
 [EPSG:25833](http://spatialreference.org/ref/epsg/25833/)
 
-Setup
------
+## Blattschnitt
 
-```
-bin/download.sh
-bin/convert.sh
-```
+https://fbinter.stadt-berlin.de/fb/atom/DOP/Blattschnitt2x2km.gif
+
+## Setup
+
+Run `make` to download and convert the tiles. See the `Makefile` for details.

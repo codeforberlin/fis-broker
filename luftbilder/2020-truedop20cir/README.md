@@ -1,24 +1,32 @@
 Digitale Color-Infrarot-TrueOrthophotos 2020 (TrueDOP20CIR) - Sommerbefliegung
 ==============================================================================
 
-ATOM Link
----------
+## Metadaten
 
-https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2020_true_cir@senstadt&type=FEED
+* https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/95a1430d-04e9-434b-ba1e-9cd9f0e673b6
 
-Attribution
------------
+## Downloaddienst (Atom)
 
-Geoportal Berlin / Digitale Color-Infrarot-TrueOrthophotos 2020 (TrueDOP20CIR) - Sommerbefliegung
+* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2020_true_cir
+* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2020_true_cir/0
 
-Projection
-----------
+## Attribution
+
+Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale Color-Infrarot-TrueOrthophotos 2020 (TrueDOP20CIR)
+
+## Lizenz
+
+Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden.
+Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.
+
+## Projektion
 
 [EPSG:25833](http://spatialreference.org/ref/epsg/25833/)
 
-Setup
------
+## Blattschnitt
 
-```
-make
-```
+https://fbinter.stadt-berlin.de/fb/atom/DOP/Blattschnitt2x2km.gif
+
+## Setup
+
+Run `make` to download and convert the tiles. See the `Makefile` for details.

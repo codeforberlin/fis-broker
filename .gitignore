@@ -1,12 +1,11 @@
+__pycache__/
+*.py[cod]
+
 *~
 *-
 *.swp
 *.save
 .DS_Store
-
-__pycache__/
-*.py[cod]
-*$py.class
 
 *.zip
 *.ZIP
@@ -23,3 +22,4 @@ __pycache__/
 *.jp2
 
 /env
+.env

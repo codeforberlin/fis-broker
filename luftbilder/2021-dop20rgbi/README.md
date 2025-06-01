@@ -1,24 +1,43 @@
 Digitale farbige Orthophotos 2021 (DOP20RGBI)
 =============================================
 
-ATOM Link
----------
+## Metadaten
 
-https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2021_rgb@senstadt&type=FEED
+* https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/ef0c8276-78af-4444-969f-d01bb7d3c841
 
-Attribution
------------
+## Downloaddienst (Atom)
 
-Geoportal Berlin / Digitale farbige Orthophotos 2021 (DOP20RGBI)
+* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2021_rgb
+* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2021_rgb/0
 
-Projection
-----------
+## Attribution
+
+Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2021 (DOP20RGBI)
+
+## Lizenz
+
+Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden.
+Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.
+
+## Projektion
 
 [EPSG:25833](http://spatialreference.org/ref/epsg/25833/)
 
-Setup
------
+## Blattschnitt
+
+https://fbinter.stadt-berlin.de/fb/atom/DOP/Blattschnitt2x2km.gif
+
+## Setup
+
+Run `make` to download and convert the tiles. See the `Makefile` for details.
+
+Issues
+------
+
+Many files are missing from `Suedost.zip`.
 
 ```
-make
+dop20rgbi_410_*.ecw
+dop20rgbi_412_*.ecw
+dop20rgbi_414_*.ecw
 ```

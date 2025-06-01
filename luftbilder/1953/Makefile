@@ -1,9 +1,12 @@
 SHELL:=/bin/bash
 
-tiles.vrt:
-	wms-downloader config.yml
+tiles.vrt: cog
+	gdalbuildvrt -a_srs EPSG:25833 tiles.vrt cog/*.tif
 
-clean:
-	rm png/*.aux.xml
+cog:
+	python download_and_convert.py
 
-.PHONY: clean
+dist-clean:
+	rm -r cog png tiles.vrt
+
+.PHONY: dist-clean
