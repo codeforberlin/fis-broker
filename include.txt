@@ -1,0 +1,5 @@
+# include file for rsync
+*/
+cog/*.tif
+tiles.vrt
+README.md

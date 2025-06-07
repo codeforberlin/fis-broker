@@ -21,7 +21,7 @@ ecw: zip
 	for f in zip/*.zip; do \
 		unzip $$f -d ecw; \
 	done
-	mv ecw/Nord/* zip/.
+	mv ecw/Nord/* ecw/.
 	rm -r ecw/Nord
 
 zip:

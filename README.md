@@ -26,7 +26,7 @@ rsync
 To copy only the converted tif files and the vrt to a remote server use:
 
 ```
-rsync --delete -av --include="*/" --include="cog/*.tif" --include="*.vrt" --exclude="*" ./ USER@SERVER:PATH/
+rsync -av --exclude=".git" --include-from=include.txt --exclude="*" ./ USER@SERVER:PATH/
 ```
 
 ECW files
