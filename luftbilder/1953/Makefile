@@ -1,7 +1,7 @@
 SHELL:=/bin/bash
 
 tiles.vrt: cog
-	gdalbuildvrt -a_srs EPSG:25833 tiles.vrt cog/*.tif
+	gdalbuildvrt -addalpha -a_srs EPSG:25833 tiles.vrt cog/*.tif
 
 cog:
 	python download_and_convert.py

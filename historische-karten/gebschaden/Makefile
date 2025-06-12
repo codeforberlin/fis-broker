@@ -1,7 +1,7 @@
 SHELL:=/bin/bash
 
 tiles.vrt: cog
-	gdalbuildvrt -a_srs EPSG:3068 tiles.vrt cog/*.tif
+	gdalbuildvrt -addalpha -a_srs EPSG:3068 tiles.vrt cog/*.tif
 
 cog: warped
 	mkdir -p cog;

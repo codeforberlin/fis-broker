@@ -5,7 +5,7 @@ export PATH := /opt/gdal-3.4.1/bin/:$(PATH)
 export LD_LIBRARY_PATH := /opt/hexagon/ERDAS-ECW_JPEG_2000_SDK-5.5.0/Desktop_Read-Only/lib/cpp11abi/x64/release/
 
 tiles.vrt: cog
-	gdalbuildvrt -a_srs EPSG:31468 tiles.vrt cog/*.tif
+	gdalbuildvrt -addalpha -a_srs EPSG:31468 tiles.vrt cog/*.tif
 
 cog: ecw
 	mkdir -p cog;

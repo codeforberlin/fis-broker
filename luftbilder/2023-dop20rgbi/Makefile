@@ -2,7 +2,7 @@ SHELL := /bin/bash
 NUM_THREADS := 4
 
 tiles.vrt: cog
-	gdalbuildvrt -a_srs EPSG:25833 tiles.vrt cog/*.tif
+	gdalbuildvrt -addalpha -a_srs EPSG:25833 tiles.vrt cog/*.tif
 
 cog: jp2
 	mkdir -p cog;
