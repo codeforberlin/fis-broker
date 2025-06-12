@@ -4,14 +4,14 @@ NUM_THREADS := 4
 export PATH := /opt/gdal-3.4.1/bin/:$(PATH)
 export LD_LIBRARY_PATH := /opt/hexagon/ERDAS-ECW_JPEG_2000_SDK-5.5.0/Desktop_Read-Only/lib/cpp11abi/x64/release/
 
-tiles.vrt:
+tiles.vrt: cog
 	gdalbuildvrt -addalpha -a_srs EPSG:25833 tiles.vrt cog/*.tif
 
 cog: ecw.vrt
 	python convert.py
 
 ecw.vrt: ecw
-	gdalbuildvrt -a_srs EPSG:25833 ecw.vrt ecw/*.tif
+	gdalbuildvrt -addalpha -a_srs EPSG:25833 ecw.vrt ecw/*.ecw
 
 ecw: zip
 	for f in zip/*.zip; do \
@@ -33,9 +33,9 @@ zip:
 	done
 
 clean:
-	rm -r ecw
+	rm -fr ecw ecw.vrt
 
 dist-clean:
-	rm -r cog ecw zip tiles.vrt
+	rm -fr cog ecw ecw.vrt zip tiles.vrt
 
 .PHONY: clean dist-clean

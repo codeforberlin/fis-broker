@@ -26,11 +26,12 @@ for xoff in range(0, width, tile_size):
 
         outfile = output_path / f'tile_{xoff}_{yoff}.tif'
 
-        cmd = [
+        gdal_translate_cmd = [
             "gdal_translate",
             "-srcwin", str(xoff), str(yoff), str(xsize), str(ysize),
             "-of", "COG",
             "-b", "1",
+            "-b", "2",
             "-a_srs", "EPSG:25833",
             "-co", "COMPRESS=JPEG",
             "-co", "QUALITY=75",
@@ -41,5 +42,20 @@ for xoff in range(0, width, tile_size):
             str(outfile)
         ]
 
-        logging.info(' '.join(cmd))
-        subprocess.check_call(cmd)
+        logging.info(' '.join(gdal_translate_cmd))
+        subprocess.check_call(gdal_translate_cmd)
+
+        gdalinfo_cmd = [
+            "gdalinfo",
+            "-stats",
+            str(outfile)
+        ]
+
+        logging.info(' '.join(gdalinfo_cmd))
+        gdalinfo = subprocess.check_output(gdalinfo_cmd)
+
+        if b'''Band 1 Block=512x512 Type=Byte, ColorInterp=Gray
+  Minimum=0.000, Maximum=0.000, Mean=0.000, StdDev=0.000''' in gdalinfo:
+            logging.warning(f'remove empty {outfile}')
+            outfile.unlink()
+            outfile.with_suffix('.tif.aux.xml').unlink()
