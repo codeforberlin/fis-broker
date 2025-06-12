@@ -12,7 +12,7 @@ Geologische Karte 1874-1937
 
 ## Attribution
 
-Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2024 (DOP20RGBI)
+Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Geologische Karte 1874-1937
 
 ## Lizenz
 

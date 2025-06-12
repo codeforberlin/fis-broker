@@ -12,7 +12,7 @@ Karte von Berlin 1:5000 (K5 - Farbausgabe)
 
 ## Attribution
 
-Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2024 (DOP20RGBI)
+Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Karte von Berlin 1:5000 (K5 - Farbausgabe)
 
 ## Lizenz
 

@@ -37,6 +37,12 @@ dop20_378_5826.ecw
 dop20_384_*.ecw
 ```
 
+One file is missing the geo information:
+
+```
+dop40_400_5834.ecw
+```
+
 ## Setup
 
 Run `make` to download and convert the tiles. See the `Makefile` for details.
