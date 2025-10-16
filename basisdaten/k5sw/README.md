@@ -1,4 +1,4 @@
-Karte von Berlin 1:5000 (K5 - Farbausgabe)
+Karte von Berlin 1:5000 (K5 - SW-Ausgabe)
 ==========================================
 
 ## Metadaten
@@ -7,12 +7,12 @@ Karte von Berlin 1:5000 (K5 - Farbausgabe)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_k5_farbe
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_k5_farbe/0
+* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_k5sw
+* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_k5sw/0
 
 ## Attribution
 
-Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Karte von Berlin 1:5000 (K5 - Farbausgabe)
+Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Karte von Berlin 1:5000 (K5 - SW-Ausgabe)
 
 ## Lizenz
 
@@ -25,7 +25,7 @@ Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.
 
 ## Blattschnitt
 
-https://fbinter.stadt-berlin.de/fb/atom/K5/farbe/Blattschnitt_K5_Farbe.pdf
+https://fbinter.stadt-berlin.de/fb/atom//Blattschnitte/blattschnitt_K5.pdf
 
 ## Setup
 

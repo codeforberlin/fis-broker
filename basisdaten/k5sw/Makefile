@@ -9,7 +9,7 @@ cog: tif
 	for input in tif/*.tif; do \
 		output=cog/`basename $$input`; \
 		gdal_translate $$input $$output \
-			-of COG -b 1 -b 2 -b 3 -a_srs EPSG:25833 \
+			-of COG -b 1 -expand rgb -a_srs EPSG:25833 \
 			-co COMPRESS=JPEG -co QUALITY=75 -co BLOCKSIZE=512 \
 			-co OVERVIEWS=IGNORE_EXISTING -co NUM_THREADS=$(NUM_THREADS); \
 	done
@@ -20,13 +20,7 @@ tif: zip
 	done
 
 zip:
-	for url in \
-		'https://fbinter.stadt-berlin.de/fb/atom/K5/farbe/k5_nordost_f.zip' \
-		'https://fbinter.stadt-berlin.de/fb/atom/K5/farbe/k5_nordwest_f.zip' \
-		'https://fbinter.stadt-berlin.de/fb/atom/K5/farbe/k5_suedost_f.zip' \
-		'https://fbinter.stadt-berlin.de/fb/atom/K5/farbe/k5_suedwest_f.zip'; \
-	do wget $$url -P zip; \
-	done
+	wget https://fbinter.stadt-berlin.de/fb/atom/K5/sw/k5_sw.zip -P zip
 
 clean:
 	rm -r tif
