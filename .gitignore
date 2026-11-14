@@ -7,20 +7,22 @@ __pycache__/
 *.save
 .DS_Store
 
-*.zip
-*.ZIP
+*.cfg
 *.ecw
 *.eww
-*.tif
-*.tfw
-*.TIF
-*.vrt
-*.xml
-*.cfg
+*.jp2
+*.pdf
 *.png
 *.prj
-*.jp2
+*.tfw
+*.tif
+*.TIF
 *.tmp
+*.vrt
+*.wld
+*.xml
+*.zip
+*.ZIP
 
 /*.sh
 
