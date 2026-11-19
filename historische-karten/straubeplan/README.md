@@ -7,8 +7,8 @@ Straubes Übersichtsplan von Berlin (Historische Mitte)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_straubeplan
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_straubeplan/0
+* https://gdi.berlin.de/data/straubeplan/atom/
+* https://gdi.berlin.de/data/straubeplan/atom/0.atom
 
 ## Attribution
 

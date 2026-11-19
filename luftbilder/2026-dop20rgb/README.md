@@ -3,7 +3,7 @@ Digitale farbige TrueOrthophotos 2026 (DOP20RGB)
 
 ## Metadaten
 
-* https://daten.berlin.de/datensaetze/digitale-farbige-trueorthophotos-2026-dop20rgbi-9ff3159b
+* https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/6067c376-47e9-49d7-8d17-d3e56c0b8dd0
 
 
 ## Downloaddienst (Atom)
@@ -13,7 +13,7 @@ Digitale farbige TrueOrthophotos 2026 (DOP20RGB)
 
 ## Attribution
 
-Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2025 (DOP20RGB)
+Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige TrueOrthophotos 2026 (DOP20RGB)
 
 ## Lizenz
 

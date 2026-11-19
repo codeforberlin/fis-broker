@@ -7,8 +7,8 @@ Digitale farbige Orthophotos 2015 (DOP20RGB)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2015_rgb
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2015_rgb/0
+* https://gdi.berlin.de/data/dop_2015/atom/
+* https://gdi.berlin.de/data/dop_2015/atom/0.atom
 
 ## Attribution
 

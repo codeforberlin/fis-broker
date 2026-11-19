@@ -7,8 +7,8 @@ Digitale farbige Trueorthophotos 2013
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2013
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2013/0
+* https://gdi.berlin.de/data/truedop_2013/atom/
+* https://gdi.berlin.de/data/truedop_2013/atom/0.atom
 
 ## Attribution
 

@@ -7,8 +7,8 @@ Berlin um 1650
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_staedtebauentwicklung
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_staedtebauentwicklung/0
+* https://gdi.berlin.de/data/staedtebauliche_entwicklung/atom/
+* https://gdi.berlin.de/data/staedtebauliche_entwicklung/atom/0.atom
 
 Das `Makefile` nutzt eine ältere URL zum Download.
 

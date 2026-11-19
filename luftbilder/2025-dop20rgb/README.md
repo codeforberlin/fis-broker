@@ -3,12 +3,12 @@ Digitale farbige Orthophotos 2025 (DOP20RGB)
 
 ## Metadaten
 
-* *unpublished, yet*
+* https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/73a3de47-ab2a-4be2-ae5d-8d6f8fe5cc1c
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2025_true_rgbi
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2025_true_rgbi/0
+* https://gdi.berlin.de/data/dop_2025_fruehjahr/atom/
+* https://gdi.berlin.de/data/dop_2025_fruehjahr/atom/0.atom
 
 ## Attribution
 

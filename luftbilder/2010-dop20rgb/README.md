@@ -7,8 +7,8 @@ Digitale farbige Orthophotos 2010 (DOP20RGB)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2010
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2010/0
+* https://gdi.berlin.de/data/dop_2010/atom/
+* https://gdi.berlin.de/data/dop_2010/atom/0.atom
 
 ## Attribution
 

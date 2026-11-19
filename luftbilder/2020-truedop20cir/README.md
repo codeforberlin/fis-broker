@@ -7,8 +7,8 @@ Digitale Color-Infrarot-TrueOrthophotos 2020 (TrueDOP20CIR) - Sommerbefliegung
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2020_true_cir
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2020_true_cir/0
+* https://gdi.berlin.de/data/truedop_2020_sommer/atom/
+* https://gdi.berlin.de/data/truedop_2020_sommer/atom/1.atom
 
 ## Attribution
 

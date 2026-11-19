@@ -7,8 +7,7 @@ Digitale Color-Infrarot-Orthophotos 2016 (DOP20CIR)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2016_cir
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2016_cir/0
+*depubliziert*
 
 ## Attribution
 

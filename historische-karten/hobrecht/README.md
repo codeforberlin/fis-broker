@@ -7,8 +7,8 @@ Hobrechtplan 1862
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_hobrecht
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_hobrecht/0
+* https://gdi.berlin.de/data/hobrechtplan/atom/
+* https://gdi.berlin.de/data/hobrechtplan/atom/0.atom
 
 ## Attribution
 

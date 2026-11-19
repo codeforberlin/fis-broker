@@ -7,8 +7,8 @@ Digitale Schwarz-Weiß-Orthophotos 2006 (DOP15PAN)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2006
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2006/0
+* https://gdi.berlin.de/data/dop_2006/atom/
+* https://gdi.berlin.de/data/dop_2006/atom/0.atom
 
 ## Attribution
 

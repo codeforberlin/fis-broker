@@ -3,12 +3,12 @@ Digitale Color-Infrarot-Orthophotos 2005 (DOP20CIR)
 
 ## Metadaten
 
-* https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/bfcbef8b-540c-4227-987b-356f6a7d7792
+* https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/22c1bad8-1964-4c92-8bad-753eda14a7ca
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2005_cir
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2005_cir/0
+* https://gdi.berlin.de/data/dop_2005_cir/atom/
+* https://gdi.berlin.de/data/dop_2005_cir/atom/0.atom
 
 ## Attribution
 

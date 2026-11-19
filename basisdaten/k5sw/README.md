@@ -7,8 +7,8 @@ Karte von Berlin 1:5000 (K5 - SW-Ausgabe)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_k5sw
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_k5sw/0
+* https://gdi.berlin.de/data/k5_sw/atom/
+* https://gdi.berlin.de/data/k5_sw/atom/0.atom
 
 ## Attribution
 

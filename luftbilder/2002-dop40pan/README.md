@@ -7,8 +7,8 @@ Digitale Schwarz-Weiß-Orthophotos 2002 (DOP40PAN)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2002
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2002/0
+* https://gdi.berlin.de/data/dop_2002/atom/
+* https://gdi.berlin.de/data/dop_2002/atom/0.atom
 
 ## Attribution
 

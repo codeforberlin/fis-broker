@@ -7,8 +7,8 @@ Digitale farbige Orthophotos 2024 (DOP20RGBI)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2024_true_rgbi
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2024_true_rgbi/0
+* https://gdi.berlin.de/data/truedop_2024/atom/
+* https://gdi.berlin.de/data/truedop_2024/atom/0.atom
 
 ## Attribution
 

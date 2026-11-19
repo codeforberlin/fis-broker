@@ -7,8 +7,8 @@ Digitale farbige Orthophotos 2004 (DOP25RGB)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2004
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2004/0
+* https://gdi.berlin.de/data/dop_2004/atom/
+* https://gdi.berlin.de/data/dop_2004/atom/0.atom
 
 ## Attribution
 

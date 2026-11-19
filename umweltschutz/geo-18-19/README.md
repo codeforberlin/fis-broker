@@ -7,8 +7,8 @@ Geologische Karte 1874-1937
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_geo_18-19
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_geo_18-19/0
+* https://gdi.berlin.de/data/geolkarte_1874_1937/atom/
+* https://gdi.berlin.de/data/geolkarte_1874_1937/atom/0.atom
 
 ## Attribution
 

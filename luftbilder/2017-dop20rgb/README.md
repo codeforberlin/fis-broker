@@ -7,8 +7,8 @@ Digitale farbige Orthophotos 2017 (DOP20RGB)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2017_rgb
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2017_rgb/0
+* https://gdi.berlin.de/data/dop_2017/atom/
+* https://gdi.berlin.de/data/dop_2017/atom/0.atom
 
 ## Attribution
 

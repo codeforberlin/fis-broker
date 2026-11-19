@@ -7,8 +7,8 @@ Digitale farbige TrueOrthophotos 2022 (DOP20RGBI)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2022_true_rgbi
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2022_true_rgbi/0
+* https://gdi.berlin.de/data/truedop_2022/atom/
+* https://gdi.berlin.de/data/truedop_2022/atom/0.atom
 
 ## Attribution
 

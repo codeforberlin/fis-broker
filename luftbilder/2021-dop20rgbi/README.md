@@ -7,8 +7,8 @@ Digitale farbige Orthophotos 2021 (DOP20RGBI)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2021_rgb
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild2021_rgb/0
+* https://gdi.berlin.de/data/dop_2021/atom/
+* https://gdi.berlin.de/data/dop_2021/atom/0.atom
 
 ## Attribution
 

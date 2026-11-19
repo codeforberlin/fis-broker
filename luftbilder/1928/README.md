@@ -7,8 +7,8 @@ Luftbilder 1928, Maßstab 1:4 000
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild1928
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_luftbild1928/0
+* https://gdi.berlin.de/data/luftbild_1928_04/atom/
+* https://gdi.berlin.de/data/luftbild_1928_04/atom/0.atom
 
 ## Attribution
 

@@ -7,8 +7,8 @@ Karte von Berlin 1:5000 (K5 - Farbausgabe)
 
 ## Downloaddienst (Atom)
 
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_k5_farbe
-* https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_k5_farbe/0
+* https://gdi.berlin.de/data/k5_farbe/atom/
+* https://gdi.berlin.de/data/k5_farbe/atom/0.atom
 
 ## Attribution
 
